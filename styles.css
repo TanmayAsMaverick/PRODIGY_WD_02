@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image:;
+}
+
+.title {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin: 10% 0 50px 0;
+}
+
+.stopwatch {
+    background-color: rgba(255, 255, 255, 0.5); /* Example of a semi-transparent white background */
+    padding: 20px; /* Adjust padding as needed */
+    display: flex; /* Use flexbox for easier alignment */
+    flex-direction: row;
+    justify-content: center;
+}
+
+.display {
+    grid-row: 1;
+    text-align: center;
+    font-size: 50px;
+    background-color: white;
+    border-radius: 5px;
+    border: solid 2px black;
+    margin-bottom: 5px;
+    width: 450px;
+    justify-content: center;
+}
+
+.buttons {
+    text-align: center;
+}
+
+button {
+    grid-row: 2;
+    height: 50px;
+    width: 147px;
+    border: solid 2px black;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: crimson;
+    color: white;
+}
+/* Existing CSS remains the same */
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    /* Existing button styles */
+    margin-right: 10px;
+}
+
+button.lap {
+    /* Styles for the Lap button */
+    width: 100px;
+}
+
+.lap-times {
+    /* Styles for the lap times list */
+    list-style: none;
+    padding: 10px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.lap-times li {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('./A.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+.stopwatch {
+    /* Styles for the stopwatch container */
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust opacity as desired */
+    padding: 20px; /* Adjust padding as needed */
+    border-radius: 10px; /* Example: rounded corners for the stopwatch */
+}
+
+.display {
+    /* Styles for the stopwatch display */
+    font-size: 50px;
+    text-align: center;
+    color: black; /* Text color for the stopwatch display */
+    /* Other styles for the display */
+}
+
+.buttons {
+    /* Styles for the buttons container */
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Other existing CSS for the stopwatch, buttons, etc. */
+
